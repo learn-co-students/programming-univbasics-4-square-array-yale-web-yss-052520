@@ -1,11 +1,8 @@
 def square_array(array)
   squared = []
-count = 0
-  while count < array.size do
-    squared << (array[number] ** 2)
-    count = count + 1
+    array.length.times do |index|
+      squared.push(array[index] ** 2)
   end
   squared
 end
-
 
